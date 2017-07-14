@@ -1,3 +1,6 @@
 [submodule "resources/ResizeYoutubePlayerToWindowSize"]
 	path = resources/ResizeYoutubePlayerToWindowSize
 	url = https://github.com/Zren/ResizeYoutubePlayerToWindowSize.git
+[submodule "resources/IconManager"]
+	path = resources/IconManager
+	url = https://github.com/Aidoboy/IconManager.git
