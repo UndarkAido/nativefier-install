@@ -1,0 +1,25 @@
+{
+    "options": {
+	"name": "GroupMe",
+	"targetUrl": "https://web.groupme.com/chats",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/groupme.png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "GroupMe",
+	    "Comment": "Send Messages!",
+	    "Icon": "groupme"
+	},
+	"icon": "resources/groupme.png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/groupme.ico"
+	}
+    }
+}

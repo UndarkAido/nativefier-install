@@ -1,0 +1,28 @@
+{
+    "options": {
+	"name": "YouTube",
+	"targetUrl": "https://youtube.com",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/youtube.png",
+	"inject": [
+	    "resources/ResizeYoutubePlayerToWindowSize/153699.user.js"
+	]
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "YouTube",
+	    "Comment": "Watch YouTube!",
+	    "Icon": "youtube"
+	},
+	"icon": "resources/youtube.png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/youtube.ico"
+	}
+    }
+}

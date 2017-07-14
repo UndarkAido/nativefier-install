@@ -1,0 +1,28 @@
+{
+    "options": {
+	"name": "Twitch",
+	"targetUrl": "https://twitch.tv/directory/following",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/twitch.png",
+	"inject": [
+	    "resources/betterttv.user.js"
+	]
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Twitch",
+	    "Comment": "Watch Twitch!",
+	    "Icon": "twitch"
+	},
+	"icon": "resources/twitch.svg"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/twitch.ico"
+	}
+    }
+}

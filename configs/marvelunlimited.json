@@ -1,0 +1,25 @@
+{
+    "options": {
+	"name": "MarvelUnlimited",
+	"targetUrl": "https://marvel.com/comics/unlimited",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/marvelunlimited.png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Marvel Unlimited",
+	    "Comment": "Read comics!",
+	    "Icon": "marvelunlimited"
+	},
+	"icon": "resources/marvelunlimited.png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/marvelunlimited.ico"
+	}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Type": "Application",
+    "Encoding": "UTF-8",
+    "Name": "Nativefier Shortcut",
+    "Comment": "A Nativefier shortcut",
+    "Exec": "%s",
+    "Icon": "",
+    "Terminal": "false",
+    "StartupWMClass": "%s"
+}
