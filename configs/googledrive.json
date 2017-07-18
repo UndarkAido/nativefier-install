@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "options": {
+	"name": "GoogleDrive",
+	"targetUrl": "https://drive.google.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Google/GoogleDrive-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Google Drive",
+	    "Comment": "Manage Files!",
+	    "Icon": "google-drive"
+	},
+	"iconsrc": "resources/IconManager/output/Google/GoogleDrive-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/groupme.ico"
+	}
+    }
+}

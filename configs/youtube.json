@@ -1,10 +1,11 @@
 {
+    "version": 1,
     "options": {
 	"name": "YouTube",
 	"targetUrl": "https://youtube.com",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/youtube.png",
+	"icon": "resources/IconManager/output/Google/YouTube-Icon[Square].png",
 	"inject": [
 	    "resources/ResizeYoutubePlayerToWindowSize/153699.user.js"
 	]
@@ -18,7 +19,7 @@
 	    "Comment": "Watch YouTube!",
 	    "Icon": "youtube"
 	},
-	"icon": "resources/youtube.png"
+	"iconsrc": "resources/IconManager/output/Google/YouTube-Icon[Square].png"
     },
     "win32": {
 	"options":{
