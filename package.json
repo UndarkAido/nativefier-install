@@ -1,0 +1,8 @@
+{
+    "name": "nativefier-install",
+    "version": 1,
+    "dependencies": {
+        "nativefier": "^7.4.0",
+        "windows-shortcuts": "^0.1.5"
+    }
+}

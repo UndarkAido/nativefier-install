@@ -1,11 +1,11 @@
 {
-    "version": 1,
+    "version": 2,
     "options": {
 	"name": "GroupMe",
 	"targetUrl": "https://web.groupme.com/chats",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/GroupMe-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/GroupMe-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,12 @@
 	    "Comment": "Send Messages!",
 	    "Icon": "groupme"
 	},
-	"iconsrc": "resources/IconManager/output/GroupMe-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/GroupMe-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/groupme.ico"
-	}
+	    "icon": "resources/IconManager/output/Internet/GroupMe-Icon.ico"
+	},
+	"name": "GroupMe"
     }
 }

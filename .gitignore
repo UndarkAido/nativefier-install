@@ -1,4 +1,5 @@
-temp/you-tube-linux-x64
+temp/*
+*~
 
 # Created by https://www.gitignore.io/api/node
 
