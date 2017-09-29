@@ -2,7 +2,7 @@
     "name": "nativefier-install",
     "version": 1,
     "dependencies": {
-        "nativefier": "^7.4.0",
+        "nativefier": "^7.4.1",
         "windows-shortcuts": "^0.1.5"
     }
 }

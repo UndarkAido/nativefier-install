@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "GoogleDriveCalendar",
+	"targetUrl": "https://calendar.google.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/GoogleCalendar-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Google Calendar",
+	    "Comment": "Manage Time!",
+	    "Icon": "google-calendar"
+	},
+	"icon": "resources/IconManager/output/Internet/GoogleCalendar-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/GoogleCalendar-Icon.ico"
+	},
+	"name": "Google Calendar"
+    }
+}

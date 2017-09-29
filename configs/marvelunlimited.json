@@ -1,10 +1,11 @@
 {
+    "version": 2,
     "options": {
 	"name": "MarvelUnlimited",
 	"targetUrl": "https://marvel.com/comics/unlimited",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/marvelunlimited.png"
+	"icon": "resources/IconManager/output/Internet/MarvelUnlimited-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -15,11 +16,12 @@
 	    "Comment": "Read comics!",
 	    "Icon": "marvelunlimited"
 	},
-	"icon": "resources/marvelunlimited.png"
+	"icon": "resources/IconManager/output/Internet/MarvelUnlimited-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/marvelunlimited.ico"
-	}
+	    "icon": "resources/IconManager/output/Internet/MarvelUnlimited-Icon.ico"
+	},
+	"name": "Marvel Unlimited"
     }
 }

@@ -1,10 +1,11 @@
 {
+    "version": 2,
     "options": {
 	"name": "Twitch",
 	"targetUrl": "https://twitch.tv/directory/following",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/twitch.png",
+	"icon": "resources/IconManager/output/Internet/Twitch-Icon[Square].png",
 	"inject": [
 	    "resources/betterttv.user.js"
 	]
@@ -18,11 +19,12 @@
 	    "Comment": "Watch Twitch!",
 	    "Icon": "twitch"
 	},
-	"icon": "resources/twitch.svg"
+	"icon": "resources/IconManager/output/Internet/Twitch-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/twitch.ico"
-	}
+	    "icon": "resources/IconManager/output/Internet/Twitch-Icon.ico"
+	},
+	"name": "Twitch"
     }
 }

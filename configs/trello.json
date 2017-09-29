@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "Trello",
+	"targetUrl": "https://trello.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/Trello/Logos/trello-mark-blue[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Trello",
+	    "Comment": "Track Projects!",
+	    "Icon": "trello"
+	},
+	"icon": "resources/IconManager/output/Internet/Trello/Logos/trello-mark-blue[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/Trello/Logos/trello-mark-blue.ico"
+	},
+	"name": "Trello"
+    }
+}

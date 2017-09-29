@@ -1,21 +1,18 @@
 {
     "version": 2,
     "options": {
-	"name": "YouTube",
-	"targetUrl": "https://youtube.com",
+	"name": "YouTubeTV",
+	"targetUrl": "https://tv.youtube.com",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/YouTube-Icon[Square].png",
-	"inject": [
-	    "resources/ResizeYoutubePlayerToWindowSize/153699.user.js"
-	]
+	"icon": "resources/IconManager/output/Internet/YouTube-Icon[Square].png"
     },
     "linux": {
 	"options":{
 	    
 	},
 	".desktop": {
-	    "Name": "YouTube",
+	    "Name": "YouTube TV",
 	    "Comment": "Watch YouTube!",
 	    "Icon": "youtube"
 	},
@@ -25,6 +22,6 @@
 	"options":{
 	    "icon": "resources/IconManager/output/Internet/Youtube-Icon.ico"
 	},
-	"name": "YouTube"
+	"name": "YouTube TV"
     }
 }
