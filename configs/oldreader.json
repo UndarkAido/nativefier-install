@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "OldReader",
+	"targetUrl": "https://theoldreader.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/OldReader-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "The Old Reader",
+	    "Comment": "Read feeds!",
+	    "Icon": "canvas"
+	},
+	"icon": "resources/IconManager/output/Internet/OldReader-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/OldReader-Icon.ico"
+	},
+	"name": "The Old Reader"
+    }
+}

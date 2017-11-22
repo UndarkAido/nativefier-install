@@ -16,7 +16,7 @@
 	    "Comment": "Get Homework!",
 	    "Icon": "canvas"
 	},
-	"icon": "resources/IconManager/output/Internet/Trello/Logos/trello-mark-blueCanvas-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/Canvas-Icon[Square].png"
     },
     "win32": {
 	"options":{

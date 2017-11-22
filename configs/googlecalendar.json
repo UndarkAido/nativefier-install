@@ -1,7 +1,7 @@
 {
     "version": 2,
     "options": {
-	"name": "GoogleDriveCalendar",
+	"name": "GoogleCalendar",
 	"targetUrl": "https://calendar.google.com/",
 	"overwrite": true,
 	"out": "temp",

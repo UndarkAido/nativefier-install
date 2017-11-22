@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "GooglePhotos",
+	"targetUrl": "https://photos.google.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/GooglePhotos-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Google Photos",
+	    "Comment": "Manage Pictures!",
+	    "Icon": "google-photos"
+	},
+	"icon": "resources/IconManager/output/Internet/GooglePhotos-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/GooglePhotos-Icon.ico"
+	},
+	"name": "Google Photos"
+    }
+}

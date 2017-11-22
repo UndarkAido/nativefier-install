@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "SelfhostedDeluge",
+	"targetUrl": "http://25.4.88.33:8112//",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Software/Deluge-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Deluge",
+	    "Comment": "Downlod torrents! Don't forget to seed your Linux Distro, it's a drop in the bucket, but it helps!",
+	    "Icon": "deluge"
+	},
+	"icon": "resources/IconManager/output/Software/Deluge-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Software/Deluge-Icon.ico"
+	},
+	"name": "Selfhosted Deluge"
+    }
+}

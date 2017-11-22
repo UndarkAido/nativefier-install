@@ -5,7 +5,7 @@
 	"targetUrl": "https://tv.youtube.com",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/YouTube-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/YouTubeTV-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -14,13 +14,13 @@
 	".desktop": {
 	    "Name": "YouTube TV",
 	    "Comment": "Watch YouTube!",
-	    "Icon": "youtube"
+	    "Icon": "youtubetv"
 	},
-	"icon": "resources/IconManager/output/Internet/YouTube-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/YouTubeTV-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/Youtube-Icon.ico"
+	    "icon": "resources/IconManager/output/Internet/YoutubeTV-Icon.ico"
 	},
 	"name": "YouTube TV"
     }

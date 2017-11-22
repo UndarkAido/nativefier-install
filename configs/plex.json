@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "Plex",
+	"targetUrl": "https://app.plex.tv/desktop",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Software/Plex-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Plex",
+	    "Comment": "Watch stuff!",
+	    "Icon": "plex"
+	},
+	"icon": "resources/IconManager/output/Software/Plex-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Software/Plex-Icon.ico"
+	},
+	"name": "Plex"
+    }
+}

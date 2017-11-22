@@ -1,0 +1,33 @@
+{
+    "version": 2,
+    "options": {
+	"name": "BaylorChapel",
+	"targetUrl": "https://www.baylor.edu/spirituallife/index.php?id=870495",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Education/Baylor-Mark[Square].png",
+	"flash": true,
+	"flashpath": ""
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Baylor Chapel",
+	    "Comment": "Watch chapel!",
+	    "Icon": "buchapel"
+	},
+	"icon": "resources/IconManager/output/Education/Baylor-Mark[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Education/Baylor-Mark.ico"
+	},
+	"name": "Baylor Chapel"
+    },
+    "comments": {
+	"url1": "//?autoplay=0",
+	"url2": "//https://www.stagehop.com/player/live/baylor-chapel"
+    }
+}

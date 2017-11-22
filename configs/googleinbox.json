@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "GoogleInbox",
+	"targetUrl": "https://inbox.google.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/InboxByGmail-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Inbox by Gmail",
+	    "Comment": "Manage Emails!",
+	    "Icon": "google-inbox"
+	},
+	"icon": "resources/IconManager/output/Internet/InboxByGmail-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/InboxByGmail-Icon.ico"
+	},
+	"name": "Inbox by Gmail"
+    }
+}
