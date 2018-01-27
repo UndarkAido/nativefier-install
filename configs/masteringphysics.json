@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "MasteringPhysics",
+	"targetUrl": "https://www.masteringphysics.com/site/login.html",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Education/Pearson-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Mastering Physics",
+	    "Comment": "Get Homework!",
+	    "Icon": "masteringphysics"
+	},
+	"icon": "resources/IconManager/output/Education/Pearson-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Education/Pearson-Icon.ico"
+	},
+	"name": "Mastering Physics"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "BaylorClassNotesWiki",
+	"targetUrl": "https://csi-info.baylor.edu/wiki",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Education/Baylor-ClassNotes[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Baylor ClassNotes Wiki",
+	    "Comment": "Upload Code!",
+	    "Icon": "classnotes"
+	},
+	"icon": "resources/IconManager/output/Education/Baylor-ClassNotes[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Education/Baylor-ClassNotes.ico"
+	},
+	"name": "Baylor ClassNotes Wiki"
+    }
+}

@@ -14,7 +14,7 @@
 	".desktop": {
 	    "Name": "Baylor Program Upload Site",
 	    "Comment": "Upload Code!",
-	    "Icon": "canvas"
+	    "Icon": "sbaylorupload"
 	},
 	"icon": "resources/IconManager/output/Education/Baylor-Paw[Square].png"
     },

@@ -1,8 +1,8 @@
 {
     "version": 2,
     "options": {
-	"name": "Majic",
-	"targetUrl": "http://www.majic.com/player/popup",
+	"name": "MyNintendo",
+	"targetUrl": "https://my.nintendo.com/",
 	"overwrite": true,
 	"out": "temp",
 	"icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed[Square].png"
@@ -12,9 +12,9 @@
 	    
 	},
 	".desktop": {
-	    "Name": "CanvasMajic 95.5",
-	    "Comment": "Listen to music!",
-	    "Icon": "majic"
+	    "Name": "My Nintendo",
+	    "Comment": "Get Rewards!",
+	    "Icon": "my-nintendo"
 	},
 	"icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed[Square].png"
     },
@@ -22,6 +22,6 @@
 	"options":{
 	    "icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed.ico"
 	},
-	"name": "Majic 95.5"
+	"name": "My Nintendo"
     }
 }
