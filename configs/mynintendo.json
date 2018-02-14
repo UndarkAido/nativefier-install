@@ -5,7 +5,7 @@
 	"targetUrl": "https://my.nintendo.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed[Square].png"
+	"icon": "resources/IconManager/output/Internet/MyNintendo-Red-Logo[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Get Rewards!",
 	    "Icon": "my-nintendo"
 	},
-	"icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed[Square].png"
+	"icon": "resources/IconManager/output/Internet/MyNintendo-Red-Logo[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Radio/Majic-XmasTreeRed.ico"
+	    "icon": "resources/IconManager/output/Internet/MyNintendo-Red-Logo.ico"
 	},
 	"name": "My Nintendo"
     }
