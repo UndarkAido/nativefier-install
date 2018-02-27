@@ -6,7 +6,10 @@
 	"overwrite": true,
 	"out": "temp",
 	"icon": "resources/IconManager/output/Internet/GroupMe-Icon[Square].png",
-	"tray": true
+	"inject": [
+	    "resources/groupme-discord-dark.user.js"
+	],
+	"tray": false
     },
     "linux": {
 	"options":{
