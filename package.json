@@ -3,6 +3,7 @@
     "version": 1,
     "dependencies": {
         "nativefier": "^7.5.4",
-        "windows-shortcuts": "^0.1.6"
+        "windows-shortcuts": "^0.1.6",
+        "xml2js": "^0.4.19"
     }
 }

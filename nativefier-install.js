@@ -3,9 +3,36 @@ const os = require('os');
 const util = require('util');
 const nativefier = require('nativefier').default;
 const ws = require('windows-shortcuts');
+const xml2js = require('xml2js');
+
+function processSnowyDuneXML(xml, name, id, path){
+    var contains = false;
+    xml["Shortcuts"]["Shortcut"].forEach(function(shortcut){
+	if(shortcut["Id"][0] == id){
+	    contains = true;
+	}
+    });
+    if(!contains){
+	xml["Shortcuts"]["Shortcut"].push({
+	    Name: [ name ],
+	    Id: [ id ],
+	    Path: [ path ],
+	    Arguments: [ '' ],
+	    RunAsAdmin: [ 'false' ],
+	    SingleInstance: [ 'false' ]
+	});
+    }
+    var builder = new xml2js.Builder();
+    var built = builder.buildObject(xml);
+    fs.writeFile(process.env.APPDATA + "/Microsoft/Windows/Start Menu/Programs/Nativefier/nativefier.xml", built, function(err) {
+	if(err) {
+            return console.log(err);
+	}
+    });
+}
 
 process.argv.slice(2).forEach(function (argapp, argindex, argarray) {
-  if (fs.existsSync('configs/' + argapp + '.json')) {
+  if (fs.existsSync(__dirname + '/configs/' + argapp + '.json')) {
       console.log("Queueing " + argapp + ".");
   }else{
       console.log("There is no config file for " + argapp + "!");
@@ -15,7 +42,7 @@ process.argv.slice(2).forEach(function (argapp, argindex, argarray) {
 
 process.argv.slice(2, 3).forEach(function (argapp, argindex, argarray) {//TODO fix multiple calls
     //console.log(fs.readFileSync('configs/youtube.json', 'utf8').substring(285));
-    config = JSON.parse(fs.readFileSync('configs/' + argapp + '.json', 'utf8'));
+    config = JSON.parse(fs.readFileSync(__dirname + '/configs/' + argapp + '.json', 'utf8'));
     options = Object.assign(config["options"], config[os.platform()]["options"]);
     //console.log(options["out"]);
     
@@ -29,6 +56,13 @@ process.argv.slice(2, 3).forEach(function (argapp, argindex, argarray) {//TODO f
 	    options["out"] =  os.homedir() + "/AppData/Roaming/Nativefier"
 	}
 	//console.log(options["out"]);
+	options["icon"] = __dirname + "/" + options["icon"];
+
+	if("inject" in options){
+	    options["inject"].forEach(function(script){
+		script = __dirname + script;
+	    });
+	}
 	
 	nativefier(options, function(error, appPath) {
 	    if (error) {
@@ -76,6 +110,22 @@ process.argv.slice(2, 3).forEach(function (argapp, argindex, argarray) {//TODO f
 			    console.log("Shortcut created!");
 		    }
 		);
+		if (fs.existsSync(process.env.APPDATA + "/Microsoft/Windows/Start Menu/Programs/Nativefier/nativefier.xml")) {
+		    fs.readFile(process.env.APPDATA + "/Microsoft/Windows/Start Menu/Programs/Nativefier/nativefier.xml", 'utf8', function (err,data) {
+			if (err) {
+			    return console.log(err);
+			}
+			var parser = new xml2js.Parser();
+			parser.parseString(data, function (err, result) {
+			    if (err) {
+				return console.log(err);
+			    }
+			    processSnowyDuneXML(result, config["win32"]["name"], options["name"], exepath);
+			});
+		    });
+		}else{
+		    processSnowyDuneXML({"Shortcuts": {"Shortcut": []}}, config["win32"]["name"], options["name"], exepath);
+		}
     	    }
 	});
     }else{

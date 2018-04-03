@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "options": {
+	"name": "glowforge",
+	"targetUrl": "https://app.glowforge.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Hardware/Glowforge-Icon[Square].png"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Glowforge",
+	    "Comment": "Cut stuff! With lasers!",
+	    "Icon": "glowforge"
+	},
+	"icon": "resources/IconManager/output/Hardware/Glowforge-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Hardware/Glowforge-Icon.ico"
+	},
+	"name": "Glowforge"
+    }
+}
