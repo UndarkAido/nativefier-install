@@ -56,7 +56,11 @@ process.argv.slice(2, 3).forEach(function (argapp, argindex, argarray) {//TODO f
 	    options["out"] =  os.homedir() + "/AppData/Roaming/Nativefier"
 	}
 	//console.log(options["out"]);
-	options["icon"] = __dirname + "/" + options["icon"];
+	if(os.platform() == "win32"){
+	    options["icon"] = __dirname + "\\" + options["icon"];
+	}else{
+	    options["icon"] = __dirname + "/" + options["icon"];
+	}
 
 	if("inject" in options){
 	    options["inject"].forEach(function(script){
