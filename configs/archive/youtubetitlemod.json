@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "options": {
+	"name": "YouTubeTitleMod",
+	"targetUrl": "https://youtube.com",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/Google/YouTube-Icon[Square].png",
+	"inject": [
+	    "resources/YouTubeTitleBar.css",
+	    "resources/YouTubeTitleBar.js"
+	],
+	"counter": true,
+	"hideWindowFrame": true,
+	"disableContextMenu": true
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "YouTube Titlebar",
+	    "Comment": "Watch YouTube!",
+	    "Icon": "youtube"
+	},
+	"icon": "resources/IconManager/output/Internet/Google/YouTube-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Internet/Google/Youtube-Icon.ico"
+	},
+	"name": "YouTube Titlebar"
+    }
+}
