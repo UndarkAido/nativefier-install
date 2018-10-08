@@ -1,0 +1,31 @@
+{
+    "version": 2,
+    "options": {
+	"name": "Gmail",
+	"targetUrl": "https://mail.google.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Internet/Google/Gmail-Icon[Square].png",
+	"inject": [
+	    "resources/NoGmailAds.css"
+	],
+	"counter": true
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "Gmail",
+	    "Comment": "Manage Emails!",
+	    "Icon": "gmail"
+	},
+	"icon": "resources/IconManager/output/Internet/Google/Gmail-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources\\IconManager\\output\\Internet\\Google\\Gmail-Icon.ico"
+	},
+	"name": "Gmail"
+    }
+}
