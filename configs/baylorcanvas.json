@@ -5,7 +5,8 @@
 	"targetUrl": "https://baylor.instructure.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Canvas-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/Canvas-Icon[Square].png",
+	"internalUrls": ".*?\\.(baylor|instructure)\\.*?"
     },
     "linux": {
 	"options":{

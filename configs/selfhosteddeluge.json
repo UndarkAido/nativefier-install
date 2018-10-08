@@ -2,7 +2,7 @@
     "version": 2,
     "options": {
 	"name": "SelfhostedDeluge",
-	"targetUrl": "http://25.4.88.33:8112//",
+	"targetUrl": "http://172.28.128.36:8112//",
 	"overwrite": true,
 	"out": "temp",
 	"icon": "resources/IconManager/output/Software/Deluge-Icon[Square].png"
