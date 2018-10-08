@@ -5,7 +5,7 @@
 	"targetUrl": "https://inbox.google.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/InboxByGmail-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/Google/InboxByGmail-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Manage Emails!",
 	    "Icon": "google-inbox"
 	},
-	"icon": "resources/IconManager/output/Internet/InboxByGmail-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/Google/InboxByGmail-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/InboxByGmail-Icon.ico"
+	    "icon": "resources/IconManager/output/Internet/Google/InboxByGmail-Icon.ico"
 	},
 	"name": "Inbox by Gmail"
     }

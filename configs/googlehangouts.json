@@ -5,7 +5,7 @@
 	"targetUrl": "https://hangouts.google.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Hangouts-Icon[Square].png"
+	"icon": "resources/IconManager/output/Internet/Hangouts-Icon[Square].png",
     },
     "linux": {
 	"options":{
