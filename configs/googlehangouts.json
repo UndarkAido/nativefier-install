@@ -6,6 +6,7 @@
 	"overwrite": true,
 	"out": "temp",
 	"icon": "resources/IconManager/output/Internet/Hangouts-Icon[Square].png",
+	"tray": true
     },
     "linux": {
 	"options":{
