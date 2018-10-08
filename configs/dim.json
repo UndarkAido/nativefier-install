@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "options": {
+	"name": "DIM",
+	"targetUrl": "https://app.destinyitemmanager.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Games/Tools/DIM-Flat[Square].png",
+	"singleInstance": true,
+	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?"
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "DIM",
+	    "Comment": "Manage Destiny items!",
+	    "Icon": "dim"
+	},
+	"icon": "resources/IconManager/output/Games/Tools/DIM-Flat[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Games/Tools/DIM-Flat.ico"
+	},
+	"name": "DIM"
+    }
+}
