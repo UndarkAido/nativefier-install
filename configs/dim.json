@@ -8,7 +8,10 @@
 	"icon": "resources/IconManager/output/Games/Tools/DIM-Flat[Square].png",
 	"XXsingleInstance": true,
 	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
-	"electronVersion": "4.0.0-beta.5"
+	"electronVersion": "4.0.0-beta.5",
+	"inject": ["resources/DIM.css", "resources/DIM.js"],
+	"hideWindowFrame": true,
+	"disableContextMenu": true
     },
     "linux": {
 	"options":{
