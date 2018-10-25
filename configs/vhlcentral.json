@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "options": {
+	"name": "VHLCentral",
+	"targetUrl": "https://www.vhlcentral.com/",
+	"overwrite": true,
+	"out": "temp",
+	"icon": "resources/IconManager/output/Education/VHL-Icon[Square].png",
+	"inject": [
+	    "resources/VHLCentral.css"
+	]
+    },
+    "linux": {
+	"options":{
+	    
+	},
+	".desktop": {
+	    "Name": "VHL Central",
+	    "Comment": "Get Homework!",
+	    "Icon": "canvas"
+	},
+	"icon": "resources/IconManager/output/Education/VHL-Icon[Square].png"
+    },
+    "win32": {
+	"options":{
+	    "icon": "resources/IconManager/output/Education/VHL-Icon.ico"
+	},
+	"name": "VHL Central"
+    }
+}
