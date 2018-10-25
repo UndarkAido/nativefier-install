@@ -6,8 +6,9 @@
 	"overwrite": true,
 	"out": "temp",
 	"icon": "resources/IconManager/output/Games/Tools/DIM-Flat[Square].png",
-	"singleInstance": true,
-	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?"
+	"XXsingleInstance": true,
+	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
+	"electronVersion": "4.0.0-beta.5"
     },
     "linux": {
 	"options":{
