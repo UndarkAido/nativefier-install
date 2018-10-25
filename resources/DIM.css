@@ -1,0 +1,26 @@
+#header {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background-color: violet !important;
+    height: 100px !important;
+}
+
+#title-bar-btns {
+ -webkit-app-region: no-drag;
+ /*position: fixed;*/
+ top: 0px;
+ right: 0px;
+    height: 100%;
+}
+
+#min-btn {
+    height: 100%;
+}
+
+#max-btn {
+    height: 100%;
+}
+
+#close-btn {
+    height: 100%;
+}
