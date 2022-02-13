@@ -5,7 +5,7 @@
 	"targetUrl": "https://youtube.com",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Google/YouTube-Icon[Square].png",
+	"icon": "resources/icons/Internet/Google/YouTube-Icon[Square].png",
 	"internalUrls": ".*?\\.(google|googleusercontent|youtube)\\.*?",
 	"inject": [
 	    "resources/YouTube.js"
@@ -21,11 +21,11 @@
 	    "Comment": "Watch YouTube!",
 	    "Icon": "youtube"
 	},
-	"icon": "resources/IconManager/output/Internet/Google/YouTube-Icon[Square].png"
+	"icon": "resources/icons/Internet/Google/YouTube-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/Google/Youtube-Icon.ico"
+	    "icon": "resources/icons/Internet/Google/Youtube-Icon.ico"
 	},
 	"name": "YouTube"
     }

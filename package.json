@@ -1,8 +1,8 @@
 {
     "name": "nativefier-install",
-    "version": 1,
+    "version": "2",
     "dependencies": {
-        "nativefier": "^7.6.2",
+        "nativefier": "^46.1.0",
         "windows-shortcuts": "^0.1.6",
         "xml2js": "^0.4.19"
     }

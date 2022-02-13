@@ -5,7 +5,7 @@
 	"targetUrl": "https://csi-info.baylor.edu/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Education/Baylor-Paw[Square].png"
+	"icon": "resources/icons/Education/Baylor-Paw[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Upload Code!",
 	    "Icon": "sbaylorupload"
 	},
-	"icon": "resources/IconManager/output/Education/Baylor-Paw[Square].png"
+	"icon": "resources/icons/Education/Baylor-Paw[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Education/Baylor-Paw.ico"
+	    "icon": "resources/icons/Education/Baylor-Paw.ico"
 	},
 	"name": "Baylor Program Upload Site"
     }

@@ -5,7 +5,7 @@
 	"targetUrl": "https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/AmazonVideo-Icon[Square].png"
+	"icon": "resources/icons/Internet/AmazonVideo-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Watch stuff!",
 	    "Icon": "amazon_prime_video"
 	},
-	"icon": "resources/IconManager/output/Internet/AmazonVideo-Icon[Square].png"
+	"icon": "resources/icons/Internet/AmazonVideo-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/AmazonVideo-Icon.ico"
+	    "icon": "resources/icons/Internet/AmazonVideo-Icon.ico"
 	},
 	"name": "Amazon Prime Video"
     }

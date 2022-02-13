@@ -5,7 +5,7 @@
 	"targetUrl": "https://www.vhlcentral.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Education/VHL-Icon[Square].png",
+	"icon": "resources/icons/Education/VHL-Icon[Square].png",
 	"inject": [
 	    "resources/VHLCentral.css"
 	]
@@ -19,11 +19,11 @@
 	    "Comment": "Get Homework!",
 	    "Icon": "canvas"
 	},
-	"icon": "resources/IconManager/output/Education/VHL-Icon[Square].png"
+	"icon": "resources/icons/Education/VHL-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Education/VHL-Icon.ico"
+	    "icon": "resources/icons/Education/VHL-Icon.ico"
 	},
 	"name": "VHL Central"
     }

@@ -5,7 +5,7 @@
 	"targetUrl": "https://www.baylor.edu/spirituallife/index.php?id=870495",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Education/Baylor-Mark[Square].png",
+	"icon": "resources/icons/Education/Baylor-Mark[Square].png",
 	"flash": true,
 	"flashpath": ""
     },
@@ -18,11 +18,11 @@
 	    "Comment": "Watch chapel!",
 	    "Icon": "buchapel"
 	},
-	"icon": "resources/IconManager/output/Education/Baylor-Mark[Square].png"
+	"icon": "resources/icons/Education/Baylor-Mark[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Education/Baylor-Mark.ico"
+	    "icon": "resources/icons/Education/Baylor-Mark.ico"
 	},
 	"name": "Baylor Chapel"
     },

@@ -5,7 +5,7 @@
 	"targetUrl": "https://theoldreader.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/OldReader-Icon[Square].png"
+	"icon": "resources/icons/Internet/OldReader-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Read feeds!",
 	    "Icon": "canvas"
 	},
-	"icon": "resources/IconManager/output/Internet/OldReader-Icon[Square].png"
+	"icon": "resources/icons/Internet/OldReader-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/OldReader-Icon.ico"
+	    "icon": "resources/icons/Internet/OldReader-Icon.ico"
 	},
 	"name": "The Old Reader"
     }

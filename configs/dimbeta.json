@@ -5,7 +5,7 @@
 	"targetUrl": "https://beta.destinyitemmanager.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Games/Tools/DIMBeta-Flat[Square].png",
+	"icon": "resources/icons/Games/Tools/DIMBeta-Flat[Square].png",
 	"XXsingleInstance": true,
 	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
 	"electronVersion": "4.0.0-beta.5"
@@ -19,11 +19,11 @@
 	    "Comment": "Manage Destiny items!",
 	    "Icon": "dimbeta"
 	},
-	"icon": "resources/IconManager/output/Games/Tools/DIMBeta-Flat[Square].png"
+	"icon": "resources/icons/Games/Tools/DIMBeta-Flat[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Games/Tools/DIMBeta-Flat.ico"
+	    "icon": "resources/icons/Games/Tools/DIMBeta-Flat.ico"
 	},
 	"name": "DIM Beta"
     }

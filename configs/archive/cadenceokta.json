@@ -5,7 +5,7 @@
 	"targetUrl": "https://cadence.okta.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Work/Okta-Icon[Square].png"
+	"icon": "resources/icons/Work/Okta-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Do work!",
 	    "Icon": "okta"
 	},
-	"icon": "resources/IconManager/output/Work/Okta-Icon[Square].png"
+	"icon": "resources/icons/Work/Okta-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Work/Okta-Icon.ico"
+	    "icon": "resources/icons/Work/Okta-Icon.ico"
 	},
 	"name": "Okta"
     }

@@ -5,7 +5,7 @@
 	"targetUrl": "https://translate.google.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Google/Translate-Logo[Square].png"
+	"icon": "resources/icons/Internet/Google/Translate-Logo[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,7 +16,7 @@
 	    "Comment": "Understand words!",
 	    "Icon": "google-translate"
 	},
-	"icon": "resources/IconManager/output/Internet/Google/Translate-Logo[Square].png"
+	"icon": "resources/icons/Internet/Google/Translate-Logo[Square].png"
     },
     "win32": {
 	"options":{

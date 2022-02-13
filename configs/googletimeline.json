@@ -5,7 +5,7 @@
 	"targetUrl": "https://www.google.com/maps/timeline",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/GoogleTimeline-Logo[Square].png"
+	"icon": "resources/icons/Internet/GoogleTimeline-Logo[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Where was I?",
 	    "Icon": "google-timeline"
 	},
-	"icon": "resources/IconManager/output/Internet/GoogleTimeline-Icon[Square].png"
+	"icon": "resources/icons/Internet/GoogleTimeline-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/GoogleTimeline-Logo.ico"
+	    "icon": "resources/icons/Internet/GoogleTimeline-Logo.ico"
 	},
 	"name": "Google Timeline"
     }

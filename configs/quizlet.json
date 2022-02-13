@@ -5,7 +5,7 @@
 	"targetUrl": "https://quizlet.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Quizlet-Icon[Square].png"
+	"icon": "resources/icons/Internet/Quizlet-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Study things!",
 	    "Icon": "quizlet"
 	},
-	"icon": "resources/IconManager/output/Internet/Quizlet-Icon[Square].png"
+	"icon": "resources/icons/Internet/Quizlet-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/Quizlet-Icon.ico"
+	    "icon": "resources/icons/Internet/Quizlet-Icon.ico"
 	},
 	"name": "Quizlet"
     }

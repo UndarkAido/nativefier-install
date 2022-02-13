@@ -5,7 +5,7 @@
 	"targetUrl": "https://messages.android.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/Google/AndroidMessages-GP-Icon[Square].png",
+	"icon": "resources/icons/Internet/Google/AndroidMessages-GP-Icon[Square].png",
 	"tray": true
     },
     "linux": {
@@ -17,11 +17,11 @@
 	    "Comment": "Talk to people!",
 	    "Icon": "android-messages"
 	},
-	"iconsrc": "resources/IconManager/output/Internet/Google/AndroidMessages-GP-Icon[Square].png"
+	"iconsrc": "resources/icons/Internet/Google/AndroidMessages-GP-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Internet/Google/AndroidMessages-GP-Icon.ico"
+	    "icon": "resources/icons/Internet/Google/AndroidMessages-GP-Icon.ico"
 	},
 	"name": "Android Messages"
     }

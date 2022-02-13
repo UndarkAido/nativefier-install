@@ -5,7 +5,7 @@
 	"targetUrl": "http://orteil.dashnet.org/cookieclicker/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Internet/CookieClicker-Icon[Source].png"
+	"icon": "resources/icons/Internet/CookieClicker-Icon[Source].png"
     },
     "linux": {
 	"options":{
@@ -16,7 +16,7 @@
 	    "Comment": "Click Cookies!",
 	    "Icon": "cookieclicker"
 	},
-	"icon": "resources/IconManager/output/Internet/CookieClicker-Icon[Source].png"
+	"icon": "resources/icons/Internet/CookieClicker-Icon[Source].png"
     },
     "win32": {
 	"options":{

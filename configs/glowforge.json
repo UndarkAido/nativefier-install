@@ -5,7 +5,7 @@
 	"targetUrl": "https://app.glowforge.com/",
 	"overwrite": true,
 	"out": "temp",
-	"icon": "resources/IconManager/output/Hardware/Glowforge-Icon[Square].png"
+	"icon": "resources/icons/Hardware/Glowforge-Icon[Square].png"
     },
     "linux": {
 	"options":{
@@ -16,11 +16,11 @@
 	    "Comment": "Cut stuff! With lasers!",
 	    "Icon": "glowforge"
 	},
-	"icon": "resources/IconManager/output/Hardware/Glowforge-Icon[Square].png"
+	"icon": "resources/icons/Hardware/Glowforge-Icon[Square].png"
     },
     "win32": {
 	"options":{
-	    "icon": "resources/IconManager/output/Hardware/Glowforge-Icon.ico"
+	    "icon": "resources/icons/Hardware/Glowforge-Icon.ico"
 	},
 	"name": "Glowforge"
     }
